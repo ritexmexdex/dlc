@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Dirección de Licitaciones y Contrataciones</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="Seguimiento a procesos de contratación">
+		<meta name="theme-color" content="#F0DB4F">
+		<meta name="MobileOptimized" content="width">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css"/>
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<script src="assets/js/2.0.3/jquery.min.js" defer type="text/javascript"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>	
+	</head>
+	<body class="contact is-preload">
+		<div id="page-wrapper">
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><span>Gobierno  Autónomo Municipal de La Paz.</span></h1>
+					<nav id="nav">
+							<ul>
+									<li class="current">nombre</li>
+									<li class="submenu">
+										<a href="#"><i class="fa fa-align-justify" aria-hidden="true"></i>NAVEGACIÓN</a>
+										<ul id="menu" name="menu">
+											<li><a href="buscar.html">Seguimiento de trámites</a></li>											
+											<li><a href="buscaadjudicacion.html">Datos del contrato</a></li>
+											<li><a href="buscaadjudicacion.html">Adjudicación de procesos</a></li>
+											<li><a href="estadistica1.html">Reporte por el total</a></li>
+											<li><a href="estadistica4.html">Reporte por D.A. ó U.E.</a></li>
+											<li><a href="estadistica2.html">Reporte por modalidad</a></li>
+											<li><a href="estadistica3.html">Reporte por Analista</a></li>
+											<li><a href="organizacion.html">Organización</a></li>
+											<li><a href="contact.html">Contactos</a></li>
+										</ul>
+									</li>
+									<li><a href="salir.html" id="sesion" name="sesion" class="button primary">Cerrar sesión</a></li>
+								</ul>
+						</nav>
+			</header>
+	</div>
+			<!-- Main -->
+			<article id="main">
+				<header class="special container">
+				<span class="icon solid fa-search"></span>
+				<h2>Consulte datos relevantes de su proceso de contratación.</h2>
+				<p>Busque introduciendo código de carpeta, objeto o modalidad</p>
+				</header>
+				<!-- One -->
+				<section class="wrapper style4 special container medium">
+				<!-- Content -->
+				<div class="content">
+					<div class="form-control mb-2" id="nombre_" name="nombre_"></div>
+					<div class="form-control mb-2" id="unidad_" name="unidad_"> </div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<div class="form-row align-items-center">
+								<div class="col-auto">
+								<input name="PalabraClave" type="text" class="form-control mb-2" id="PalabraClave" placeholder="Código, Objeto, unidad ejecutora">
+										<div class="box">
+										<label>Modalidad:</label>
+											<select name="modalidad" id="modalidad">
+											<option value="TODAS">TODAS LAS MODALIDADES</option> 
+												<option value="MAYOR">APOYO NACIONAL A LA PRODUCCI&Oacute;N Y EMPLEO</option>                                                                                                               
+												<option value="MENOR">APOYO NACIONAL A LA PRODUCCI&Oacute;N Y EMPLEO (Hasta 200mil Bolivianos)</option>                                                                                     
+												<option value="NORMATIVA">CON NORMATIVA DEL FINANCIADOR NACIONAL</option>                                                                                                                
+												<option value="DIRECTAM">CONTRATACI&Oacute;N DIRECTA MAYOR A 200 MIL</option>                                                                                                                                 
+												<option value="DITECTAMEN">CONTRATACI&Oacute;N DIRECTA MENOR IGUAL A 200 MIL</option>
+												<option value="MENOR2">CONTRATACI&Oacute;N MENOR</option>                                                                                                                                   
+												<option value="EMERGENCIA">CONTRATACI&Oacute;N POR EMERGENCIA</option>                                                                                                                           
+												<option value="EXCEPCION">CONTRATACI&Oacute;N POR EXCEPCI&Oacute;N</option>                                                                                                                            
+												<option value="INTERNACIONAL">LICITACI&Oacute;N P&Uacute;BLICA INTERNACIONAL</option>                                                                                                                      
+												<option value="NACIONAL">LICITACI&Oacute;N PUBLICA NACIONAL</option>
+											</select>
+										</div>
+										<div class="box">
+										<label>Analista&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+												<select name="analista" id="analista">		
+													<option value="0">TODOS LOS ANALISTAS</option>
+													<option value="14359">JAVIER ALEJANDRO GUTIERREZ ALVAREZ</option>
+													<option value="8064">JANNETH CLAUDIA CAMACHO RUIZ</option>
+													<option value="14752">MONICA IVANA LOPEZ ARCE</option>
+													<option value="3003">JHANETH BEJAR LARREA</option>
+													<option value="30250">VICTOR HUGO LUNA LUNA</option>
+													<option value="13822">CLAUDIA  LISSETH LOAYZA RIVERA</option>
+													<option value="7201">MARIA LUISA ARGOTE RENGEL</option>
+												</select>
+											</div>
+											<p></p>
+								<div class="col-auto">
+									<button type="button" class="special" name="buscar" id="buscar">Buscar</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				</section>
+				<div class="row">
+					<div class="col-12">
+						<div class="table-responsive">
+						<table class="tablaPrecios" name="Tablita" id="Tablita"></table>
+						</div>
+					</div>
+				</div>
+			</article>
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+				<li><a href="https://twitter.com/LaPazAlcaldia" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://twitter.com/LaPazAlcaldia" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.youtube.com/c/Alcald%C3%ADaLaPazGAMLP" class="icon brands circle fa-youtube"><span class="label">Youtube</span></a></li>
+				<li><a href="https://www.instagram.com/alcaldialapaz/" class="icon brands circle fa-instagram"><span class="label">Instagram</span></a></li>
+		</ul>
+		<ul class="copyright">
+				<li>&copy; Gobierno Autónomo Municipal de La Paz</li><li>Diseño: <a href="http://www.lapaz.bo">Dirección de Licitaciones y Contrataciones.</a></li>
+		</ul>
+	</footer>
+	<!-- Scripts -->
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollgress.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/leercookie.js"></script>
+	</body>
+	</html>
+<script type="text/javascript">
+		var nombre; var email; var cargo; var idue;	var idusu; var tipo; var idemp;	var ue;	var cafdesc;
+	$(document).ready(function() {
+			var nombre = readCookie('nombre');
+			var email = readCookie('email');
+			var cargo = readCookie('cargo');
+			var idue = readCookie('idue');
+			var idusu = readCookie('idusu');
+			var tipo = readCookie('tipo');
+			var idemp = readCookie('idemp');
+			var ue = readCookie('ue');
+			var cafdesc = readCookie('cafdesc');
+			//console.log(nombre,email ,cargo,idue,idusu,tipo ,idemp,ue,cafdesc);
+			$("#nombre_").append(nombre);
+			$("#unidad_").append(cafdesc);
+			if (nombre != null || nombre != ''){
+				if (tipo ==1 || cargo == 43) {
+					document.getElementById("analista").style.display = "run-in";
+					} 
+				else {
+						document.getElementById("analista").style.display = "none";
+						var PalabraClave = $("#PalabraClave").val();
+						var Modalidad = $("#modalidad").val();
+						var analista = $("#analista").val();
+						if (PalabraClave == "") {
+							var PalabraClave = 0;
+						}
+						buscar1(PalabraClave, Modalidad, analista, ue, cargo);
+					}
+				}
+			else
+			{
+				alert("No cuenta con los permisos suficientes");
+				window.location = 'index.html';
+			}
+	});	
+
+	$("#buscar").on("click", function(){
+			ClearDoc ();
+			var PalabraClave = $("#PalabraClave").val();
+			var Modalidad = $("#modalidad").val();
+			var analista = $("#analista").val();
+			if (PalabraClave == "") { var PalabraClave = 0;}
+			buscar(PalabraClave, Modalidad, analista, ue, cargo);
+	});
+
+function buscar(PalabraClave, Modalidad, analista, ue, cargo){
+		var cargo = readCookie('cargo');
+		var ue = readCookie('ue');
+		//var palabra = encodeURIComponent(PalabraClave);	
+		//console.log('en buscar',encodeURIComponent(PalabraClave), Modalidad,analista, ue, cargo);
+		var settings = {
+							"url": "https://gamlpmotores.lapaz.bo/dlc/api/buscador",
+							"method": "POST",
+							"timeout": 0,
+							"headers": {"Content-Type": "application/json"},
+							"data": JSON.stringify({"PalabraClave":PalabraClave,"Modalidad":Modalidad,"analista":analista,"ue":ue,"cargo":cargo}),
+							};
+								$.ajax(settings).done(function (response) {
+									for (var i = 0; i < response.length; i++) {
+										$("#Tablita").append('<tr>' + 
+											'<td style="display:none;"><b>CÓDIGO TRÁMITE: </b>' + response[i].ID + '</td>'+
+											'<td style="display:none;"><b>CÓDIGO DE PROCESO: </b>' + response[i].Id_proceso + '</td>'+
+											'<td align="center"><b>DIRECCIÓN ADMINISTRATIVA: </b>' + response[i].da + '</td>'+
+											'<td align="center"><b>CÓDIGO: </b>' + response[i].codigo + '</td>'+
+											'<td align="center"><b>OBJETO: </b>' + response[i].objeto + '</td>'+
+											'<td align="center"><b>UNIDAD EJECUTORA: </b>' + response[i].ue + '</td>'+
+											'<td align="center"><b>FECHA DE LA ÚLTIMA ACTIVIDAD: </b>' + response[i].fecha_apertura + '</td>'+
+											'<td align="center"><b>ACTIVIDAD ACTUAL: </b>' + response[i].estado + '</td>'+
+											'<td align="center"><b>OBSERVACIONES: </b>' + response[i].observaciones + '</td>'+
+											'<td align="center"><input type="button" onclick="masdatos('+ response[i].ID +')" value="Ver más..."></td></tr>');
+									}
+								});
+		}
+		
+	function buscar1(PalabraClave, Modalidad, ue, cargo){
+		//console.log('en buscar1',PalabraClave, Modalidad, ue, cargo);
+		var settings = {
+						"url": "https://gamlpmotores.lapaz.bo/dlc/api/buscador",
+						"method": "POST",
+						"timeout": 0,
+						"headers": {"Content-Type": "application/json"},
+						"data": JSON.stringify({"PalabraClave":PalabraClave,"Modalidad":Modalidad,"analista":analista,"ue":ue,"cargo":cargo}),
+						};
+							$.ajax(settings).done(function (response) {
+								for (var i = 0; i < response.length; i++) {
+									$("#Tablita").append('<tr>' + 
+										'<td align="center"><b>CÓDIGO: </b>' + response[i].codigo + '</td>'+
+										'<td align="center"><b>OBJETO: </b>' + response[i].objeto + '</td>'+
+										'<td align="center"><b>ACTIVIDAD ACTUAL: </b>' + response[i].estado + '</td>'+
+										'<td align="center"><input type="button" onclick="masdatos('+ response[i].ID +')" value="Ver más..."></td></tr>');
+									}
+							});
+	}
+
+function ClearDoc () {
+	document.getElementById("Tablita").innerHTML="";
+}
+
+function masdatos(name){
+    //console.log(name, string);
+    window.location = 'mas.html?contrato='+name;
+}
+</script>
